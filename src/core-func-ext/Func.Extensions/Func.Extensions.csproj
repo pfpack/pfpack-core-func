@@ -17,7 +17,7 @@
     <Description>PrimeFuncPack Core.Func.Extensions is a core library for .NET consisting of extensions for functional interfaces (SAM interfaces) targeted for use in functional programming - IAsyncFunc/IAsyncValueFunc and IFunc, both asynchronous (Task and ValueTask based) and synchronous.</Description>
     <RootNamespace>System</RootNamespace>
     <AssemblyName>PrimeFuncPack.Core.Func.Extensions</AssemblyName>
-    <Version>2.0.0-rc.1.0.0</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,12 +32,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.Async" Version="2.0.0-rc.1.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.AsyncValue" Version="2.0.0-rc.1.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.Sync" Version="2.0.0-rc.1.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.Async" Version="2.0.0-rc.1.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.AsyncValue" Version="2.0.0-rc.1.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.Sync" Version="2.0.0-rc.1.0.0" />
+    <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.Async" Version="2.0.0" />
+    <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.AsyncValue" Version="2.0.0" />
+    <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.Sync" Version="2.0.0" />
+    <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.Async" Version="2.0.0" />
+    <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.AsyncValue" Version="2.0.0" />
+    <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.Sync" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
